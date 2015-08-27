@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="15" tilewidth="32" tileheight="32" nextobjectid="22">
+ <properties>
+  <property name="bullet" value="bullet1.png"/>
+  <property name="clouds" value="clouds.png"/>
+  <property name="spaceship" value="spaceship.png"/>
+ </properties>
+ <tileset firstgid="1" name="blocks1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="blocks1.png" width="614" height="376"/>
+ </tileset>
+ <tileset firstgid="199" name="blocks2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="blocks2.png" width="614" height="376"/>
+ </tileset>
+ <objectgroup name="BG">
+  <object id="11" name="Background" type="ScrollingBackground" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="animSpeed" value="0.2"/>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="480"/>
+    <property name="textureID" value="clouds"/>
+    <property name="textureWidth" value="640"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Tile Layer 1" width="60" height="15">
+  <properties>
+   <property name="collidable" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BgQBwQxwNxApq4BBBLArEUEEsDsQwQy9LVZaNgoEEyEKcAcepAOwQPGE2no2AUDH8wms9HwSiAgO0jDO8D4t0E8H40/i4c6nYNAfMAM8da7g==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="1" name="Spaceship" type="Player" x="31" y="223" width="32" height="32">
+   <properties>
+    <property name="collidable" value=""/>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="32"/>
+    <property name="textureID" value="spaceship"/>
+    <property name="textureWidth" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Projectile Layer">
+  <object id="21" name="Bullet_1" type="Projectile" x="-100" y="-100" width="11" height="11">
+   <properties>
+    <property name="collidable" value=""/>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="11"/>
+    <property name="textureID" value="bullet1.png"/>
+    <property name="textureWidth" value="11"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

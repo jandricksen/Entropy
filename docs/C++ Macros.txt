@@ -1,0 +1,16 @@
+**INCLUDES**
+
+#include <iostream>
+#include <vector>
+
+**STD'S**
+
+std::cout << << std::endl;
+
+
+
+
+**GAME LOGIC**
+
+Vector2D targetVector(target.x - player.x, target.y - player.y);
+targetVector.normalize();d

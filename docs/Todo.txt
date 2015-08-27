@@ -1,0 +1,38 @@
+To Do List:
+
+**WORKING VERSION**
+
+Find Map Width and Pass to Level
+
+Dismantle some of the Hanlders/Managers and most singletons. 
+Replace pointers with address referncing
+Get rid of Tiled system for now.
+
+Make it so Bullets can't fly off end of Level
+ADD FPS Counter
+Devise a new Layer system that takes into account adding new game objects into rendering order/stack
+Add a QuadTree System of Collision detection
+Fix laser
+
+
+Look at Scrolling Background Method of Moving Two rectangles
+Understand tile collision in manager
+
+Optimization:
+
+Go through and turn any uneccessary includes to forward declerations
+Replace #define with consts
+Replace #pragma once with #ifdef for cross compatibility
+Rename RectRect method
+Look at auto "ranged for loops" intead of defined for loops. for use with iterators (C++11 feature)
+Clean up warnings
+Change for loops to iterators 
+
+
+
+Done:
+
+1) Remove BulletHandler
+2) Flesh our Bullet class to match other Actors
+3) register a bullet type with the gameobject factory class and instantiate this (new Bullet.h etc) in Game.cpp. Then map1.tmx and levelparser can see this fucker
+
