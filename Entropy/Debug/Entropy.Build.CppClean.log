@@ -1,42 +1,42 @@
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\vc120.pdb
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\vc120.idb
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\level.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\levelparser.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\loaderparams.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\main.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\mainmenustate.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\menubutton.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\objectlayer.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\pausestate.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\player.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\playstate.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\scrollingbackground.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\soundmanager.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\stateparser.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\texturemanager.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\tilelayer.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\tinystr.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\tinyxml.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\tinyxmlerror.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\tinyxmlparser.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\vector2d.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\actor.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\animatedgraphic.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\base64.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\projectile.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\camera.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\collisionmanager.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\game.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\gameobjectfactory.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\gameoverstate.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\gamestatemachine.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\inputhandler.obj
-c:\users\user\documents\visual studio 2013\projects\entropy\debug\entropy.ilk
-c:\users\user\documents\visual studio 2013\projects\entropy\debug\entropy.exe
-c:\users\user\documents\visual studio 2013\projects\entropy\debug\entropy.pdb
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\entropy.tlog\cl.command.1.tlog
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\entropy.tlog\cl.read.1.tlog
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\entropy.tlog\cl.write.1.tlog
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\entropy.tlog\link.command.1.tlog
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\entropy.tlog\link.read.1.tlog
-c:\users\user\documents\visual studio 2013\projects\entropy\entropy\debug\entropy.tlog\link.write.1.tlog
+c:\users\user\documents\github\entropy\entropy\debug\vc120.pdb
+c:\users\user\documents\github\entropy\entropy\debug\vc120.idb
+c:\users\user\documents\github\entropy\entropy\debug\level.obj
+c:\users\user\documents\github\entropy\entropy\debug\levelparser.obj
+c:\users\user\documents\github\entropy\entropy\debug\loaderparams.obj
+c:\users\user\documents\github\entropy\entropy\debug\main.obj
+c:\users\user\documents\github\entropy\entropy\debug\mainmenustate.obj
+c:\users\user\documents\github\entropy\entropy\debug\menubutton.obj
+c:\users\user\documents\github\entropy\entropy\debug\objectlayer.obj
+c:\users\user\documents\github\entropy\entropy\debug\pausestate.obj
+c:\users\user\documents\github\entropy\entropy\debug\player.obj
+c:\users\user\documents\github\entropy\entropy\debug\playstate.obj
+c:\users\user\documents\github\entropy\entropy\debug\scrollingbackground.obj
+c:\users\user\documents\github\entropy\entropy\debug\soundmanager.obj
+c:\users\user\documents\github\entropy\entropy\debug\stateparser.obj
+c:\users\user\documents\github\entropy\entropy\debug\texturemanager.obj
+c:\users\user\documents\github\entropy\entropy\debug\tilelayer.obj
+c:\users\user\documents\github\entropy\entropy\debug\tinystr.obj
+c:\users\user\documents\github\entropy\entropy\debug\tinyxml.obj
+c:\users\user\documents\github\entropy\entropy\debug\tinyxmlerror.obj
+c:\users\user\documents\github\entropy\entropy\debug\tinyxmlparser.obj
+c:\users\user\documents\github\entropy\entropy\debug\vector2d.obj
+c:\users\user\documents\github\entropy\entropy\debug\actor.obj
+c:\users\user\documents\github\entropy\entropy\debug\animatedgraphic.obj
+c:\users\user\documents\github\entropy\entropy\debug\base64.obj
+c:\users\user\documents\github\entropy\entropy\debug\projectile.obj
+c:\users\user\documents\github\entropy\entropy\debug\camera.obj
+c:\users\user\documents\github\entropy\entropy\debug\collisionmanager.obj
+c:\users\user\documents\github\entropy\entropy\debug\game.obj
+c:\users\user\documents\github\entropy\entropy\debug\gameobjectfactory.obj
+c:\users\user\documents\github\entropy\entropy\debug\gameoverstate.obj
+c:\users\user\documents\github\entropy\entropy\debug\gamestatemachine.obj
+c:\users\user\documents\github\entropy\entropy\debug\inputhandler.obj
+c:\users\user\documents\github\entropy\debug\entropy.ilk
+c:\users\user\documents\github\entropy\debug\entropy.exe
+c:\users\user\documents\github\entropy\debug\entropy.pdb
+c:\users\user\documents\github\entropy\entropy\debug\entropy.tlog\cl.command.1.tlog
+c:\users\user\documents\github\entropy\entropy\debug\entropy.tlog\cl.read.1.tlog
+c:\users\user\documents\github\entropy\entropy\debug\entropy.tlog\cl.write.1.tlog
+c:\users\user\documents\github\entropy\entropy\debug\entropy.tlog\link.command.1.tlog
+c:\users\user\documents\github\entropy\entropy\debug\entropy.tlog\link.read.1.tlog
+c:\users\user\documents\github\entropy\entropy\debug\entropy.tlog\link.write.1.tlog

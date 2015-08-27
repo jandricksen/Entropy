@@ -48,6 +48,10 @@ public:
 		return m_collisionLayers; 
 	}
 
+	void setMapSize(int width, int height) { m_mapWidth = width, m_mapHeight = height; }
+	int getMapWidth() { return m_mapWidth; }
+	int getMapHeight() { return m_mapHeight; }
+
 
 	Player* getPlayer() { return m_pPlayer; }
 	void setPlayer(Player* pPlayer) { m_pPlayer = pPlayer; }
@@ -57,10 +61,6 @@ public:
 		return &m_projectileObjects;
 	}
 
-	std::vector<Projectile*>* getProjectileArray()
-	{
-		return &m_projectileObjects;
-	}
 
 private:
 
@@ -71,10 +71,11 @@ private:
 	std::vector<Layer*> m_layers;
 	std::vector<TileLayer*> m_collisionLayers;
 
+	int m_mapWidth;
+	int m_mapHeight;
+
 	Player* m_pPlayer;
 
-	// a list of game objects
-	//std::vector<GameObject*> m_gameObjects;
 	std::vector<Projectile*> m_projectileObjects;
 
 };

@@ -28,7 +28,9 @@ public:
 		m_tileSize = tileSize;
 	}
 
-	void setMapWidth(int mapWidth) { m_mapWidth = mapWidth; }
+	void setMapSize(int mapWidth, int mapHeight) { m_mapWidth = mapWidth, m_mapHeight = mapHeight; }
+	int getMapWidth() { return m_mapWidth; }
+	int getMapHeight() { return m_mapWidth; }
 
 	int getTileSize() { return m_tileSize; }
 

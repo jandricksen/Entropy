@@ -32,6 +32,8 @@ Level* LevelParser::parseLevel(const char* levelFile)
 	pRoot->Attribute("width", &m_width);
 	pRoot->Attribute("height", &m_height);
 
+	pLevel->setMapSize(m_width*m_tileSize, m_height*m_tileSize);
+
 	//we know that properties is the first child of the root
 	TiXmlElement* pProperties = pRoot->FirstChildElement();
 
@@ -151,11 +153,9 @@ void LevelParser::parseObjectLayer(TiXmlElement* pObjectElement, std::vector<Lay
 
 			if (type == "Projectile")
 			{
-				std::cout << "yo";
-				pLevel->getProjectileArray()->push_back(dynamic_cast<Projectile*>(pGameObject));
+				pLevel->getProjectileObjects()->push_back(dynamic_cast<Projectile*>(pGameObject));
 			}
 
-			//pLevel->getGameObject()->push_back(pGameObject);
 			pObjectLayer->getGameObject()->push_back(pGameObject);
 		}
 	}
@@ -255,7 +255,7 @@ void LevelParser::parseTileLayer(TiXmlElement* pTileElement, std::vector<Layer*>
 	}
 
 	pTileLayer->setTileIDs(data);
-	pTileLayer->setMapWidth(m_width);
+	pTileLayer->setMapSize(m_width*m_tileSize, m_height*m_tileSize);
 
 	// push into collision array if necessary 
 	if (collidable)

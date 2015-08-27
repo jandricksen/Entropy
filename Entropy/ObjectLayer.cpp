@@ -25,33 +25,27 @@ void ObjectLayer::update(Level* pLevel, double delta)
 	{
 		for (std::vector<GameObject*>::iterator it = m_gameObjects.begin(); it != m_gameObjects.end();)
 		{
-			if ((*it)->getPosition().getX() <= TheCamera::Instance()->getPosition().m_x + TheGame::Instance()->getWindowWidth())
-			{
-				(*it)->setUpdating(true);
-				(*it)->update(delta);
-			}
-			else
-			{
-				if ((*it)->type() != std::string("Player"))
-				{
-					(*it)->setUpdating(false);
-				}
-				else
-				{
-					(*it)->update(delta);
-				}
-			}
+			//Everything Updating All the Time
+			(*it)->setUpdating(true);
+			(*it)->update(delta);
+	
+			//Check if off map If So Collision Removal
+			if  (
 
-			//check if off map
-			if ((*it)->getPosition().getX() < (-200 - (*it)->getWidth()) || (*it)->getPosition().getY() > (TheGame::Instance()->getWindowHeight()) || ((*it)->dead()))
+				(*it)->getPosition().getX() < (-200 - (*it)->getWidth()) || 
+				(*it)->getPosition().getX() > (pLevel->getMapWidth() + (*it)->getWidth()) || 
+				(*it)->getPosition().getY() > pLevel->getMapHeight() ||
+				(*it)->getPosition().getY() < -200
+				
+				)
 			{
-				std::cout << "YO";
+				std::cout << "Off map";
 				(*it)->collision();
 				++it; // increment if all ok
 			}
 			else
 			{
-			++it; // increment if all ok
+				++it; // increment if all ok
 			}
 
 		}

@@ -47,27 +47,14 @@ void Actor::update()
 
 bool Actor::checkCollideTile(Vector2D newPos)
 {
-	// if Actor out of bounds don't check
-	if (newPos.m_y + m_height >= TheGame::Instance()->getWindowHeight() - 32)
+	for (std::vector<TileLayer*>::iterator it = m_pCollisionLayers->begin(); it != m_pCollisionLayers->end(); ++it)
 	{
-		return false;
-	}
-	else if (newPos.m_y <= 32)
-	{
-		return false;
-	}
+		TileLayer* pTileLayer = (*it);
 
-	else
-	{
-		for (std::vector<TileLayer*>::iterator it = m_pCollisionLayers->begin(); it != m_pCollisionLayers->end(); ++it)
+		//Check in Map Bounds Before We Bother Checking Collision // Otherwise NO Tiles Stupid!
+		if (newPos.m_x > 0 && newPos.m_x < pTileLayer->getMapWidth() - 100 && newPos.m_y > 0 && newPos.m_y < pTileLayer->getMapHeight())
 		{
-			TileLayer* pTileLayer = (*it);
 			std::vector<std::vector<int>> tiles = pTileLayer->getTileIDs();
-
-			//if (type() == "Projectile")
-			//{
-			//	std::cout << "Projectile" << std::endl;
-			//}
 
 			Vector2D layerPos = pTileLayer->getPosition();
 
@@ -76,11 +63,6 @@ bool Actor::checkCollideTile(Vector2D newPos)
 			// get specific tile
 			x = layerPos.getX() / pTileLayer->getTileSize();
 			y = layerPos.getY() / pTileLayer->getTileSize();
-
-			//Vector2D startPos = newPos;
-			//startPos.m_x += 15;
-			//startPos.m_y += 20;
-			//Vector2D endPos(newPos.m_x + (m_width - 15), (newPos.m_y) + m_height - 4);
 
 			Vector2D startPos = newPos;
 			startPos.m_x;
@@ -98,15 +80,15 @@ bool Actor::checkCollideTile(Vector2D newPos)
 
 					if (tileID != 0)
 					{
-						//std::cout << "COLLLLLLLLLLLLLLLLLL";
 						return true;
 					}
 				}
 			}
 		}
 
-		return false;
 	}
+
+	return false;
 }
 
 void Actor::doDyingAnimation()

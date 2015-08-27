@@ -2,7 +2,10 @@ To Do List:
 
 **WORKING VERSION**
 
-Find Map Width and Pass to Level
+Change Collision call in ObjectLayer when object off map to some kind of virtual remove function
+Check Rendering is efficient/map culling
+
+
 
 Dismantle some of the Hanlders/Managers and most singletons. 
 Replace pointers with address referncing
@@ -13,12 +16,12 @@ ADD FPS Counter
 Devise a new Layer system that takes into account adding new game objects into rendering order/stack
 Add a QuadTree System of Collision detection
 Fix laser
-
+ 
 
 Look at Scrolling Background Method of Moving Two rectangles
 Understand tile collision in manager
 
-Optimization:
+Optimization: 
 
 Go through and turn any uneccessary includes to forward declerations
 Replace #define with consts
@@ -35,4 +38,4 @@ Done:
 1) Remove BulletHandler
 2) Flesh our Bullet class to match other Actors
 3) register a bullet type with the gameobject factory class and instantiate this (new Bullet.h etc) in Game.cpp. Then map1.tmx and levelparser can see this fucker
-
+Find Map Width and Pass to Level

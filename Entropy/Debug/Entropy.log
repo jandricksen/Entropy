@@ -1,4 +1,4 @@
-﻿Build started 27-Aug-15 7:06:17 PM.
+﻿Build started 27-Aug-15 10:28:18 PM.
      1>Project "C:\Users\user\Documents\GitHub\Entropy\Entropy\Entropy.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Actor.cpp AnimatedGraphic.cpp base64.cpp Projectile.cpp Camera.cpp CollisionManager.cpp Game.cpp GameObjectFactory.cpp GameOverState.cpp GameStateMachine.cpp InputHandler.cpp Level.cpp LevelParser.cpp LoaderParams.cpp main.cpp MainMenuState.cpp MenuButton.cpp ObjectLayer.cpp PauseState.cpp Player.cpp PlayState.cpp ScrollingBackground.cpp SoundManager.cpp StateParser.cpp TextureManager.cpp TileLayer.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp Vector2D.cpp
@@ -31,11 +31,11 @@
      1>c:\users\user\documents\github\entropy\entropy\playstate.h(13): warning C4150: deletion of pointer to incomplete type 'Level'; no destructor called
                  c:\users\user\documents\github\entropy\entropy\playstate.h(4) : see declaration of 'Level'
          Player.cpp
-     1>c:\users\user\documents\github\entropy\entropy\player.cpp(36): warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
-     1>c:\users\user\documents\github\entropy\entropy\player.cpp(288): warning C4018: '>=' : signed/unsigned mismatch
-     1>c:\users\user\documents\github\entropy\entropy\player.cpp(297): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\player.cpp(37): warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\player.cpp(289): warning C4018: '>=' : signed/unsigned mismatch
      1>c:\users\user\documents\github\entropy\entropy\player.cpp(298): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\user\documents\github\entropy\entropy\player.cpp(305): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\player.cpp(299): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\player.cpp(306): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
          PauseState.cpp
      1>c:\users\user\documents\github\entropy\entropy\pausestate.cpp(98): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\user\documents\github\entropy\entropy\pausestate.cpp(107): warning C4018: '<' : signed/unsigned mismatch
@@ -91,10 +91,10 @@
          base64.cpp
          AnimatedGraphic.cpp
          Actor.cpp
-     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(77): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(78): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(90): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(92): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(64): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(65): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(72): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(74): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
          Generating Code...
      1>c:\users\user\documents\github\entropy\entropy\gamestatemachine.cpp(56): warning C4715: 'GameStateMachine::getCurrentState' : not all control paths return a value
        Link:
@@ -135,4 +135,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:11.93
+Time Elapsed 00:00:11.60

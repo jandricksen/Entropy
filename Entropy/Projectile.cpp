@@ -39,6 +39,7 @@ void Projectile::draw()
 
 void Projectile::collision()
 {
+	std::cout << "Collision" << std::endl;
 	m_bDying = true;
 }
 
@@ -55,6 +56,7 @@ void Projectile::update(double delta)
 		{
 			collision();
 		}
+
 	}
 	else // if the Projectile is doing the death animation
 	{
