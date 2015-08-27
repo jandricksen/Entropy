@@ -12,6 +12,7 @@ previousShotTime(0)
 {
 }
 
+
 void Player::load(std::unique_ptr<LoaderParams> const &pParams)
 {
 	Actor::load(std::move(pParams));
