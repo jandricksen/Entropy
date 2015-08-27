@@ -1,15 +1,104 @@
-﻿Build started 27-Aug-15 5:37:42 PM.
-     1>Project "C:\Users\user\documents\visual studio 2013\Projects\Entropy\Entropy\Entropy.vcxproj" on node 2 (Build target(s)).
+﻿Build started 27-Aug-15 7:06:17 PM.
+     1>Project "C:\Users\user\Documents\GitHub\Entropy\Entropy\Entropy.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Player.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Actor.cpp AnimatedGraphic.cpp base64.cpp Projectile.cpp Camera.cpp CollisionManager.cpp Game.cpp GameObjectFactory.cpp GameOverState.cpp GameStateMachine.cpp InputHandler.cpp Level.cpp LevelParser.cpp LoaderParams.cpp main.cpp MainMenuState.cpp MenuButton.cpp ObjectLayer.cpp PauseState.cpp Player.cpp PlayState.cpp ScrollingBackground.cpp SoundManager.cpp StateParser.cpp TextureManager.cpp TileLayer.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp Vector2D.cpp
+         Vector2D.cpp
+     1>c:\users\user\documents\github\entropy\entropy\vector2d.cpp(26): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         TileLayer.cpp
+     1>c:\users\user\documents\github\entropy\entropy\tilelayer.cpp(37): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\tilelayer.cpp(38): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\tilelayer.cpp(74): warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\tilelayer.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\github\entropy\entropy\tilelayer.cpp(83): warning C4018: '<=' : signed/unsigned mismatch
+         TextureManager.cpp
+         StateParser.cpp
+         SoundManager.cpp
+         ScrollingBackground.cpp
+     1>c:\users\user\documents\github\entropy\entropy\scrollingbackground.cpp(19): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\scrollingbackground.cpp(21): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\scrollingbackground.cpp(27): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\scrollingbackground.cpp(29): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\scrollingbackground.cpp(49): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\scrollingbackground.cpp(65): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\scrollingbackground.cpp(67): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\scrollingbackground.cpp(73): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\scrollingbackground.cpp(75): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         PlayState.cpp
+     1>c:\users\user\documents\github\entropy\entropy\playstate.h(13): warning C4150: deletion of pointer to incomplete type 'Level'; no destructor called
+                 c:\users\user\documents\github\entropy\entropy\playstate.h(4) : see declaration of 'Level'
          Player.cpp
-     1>c:\users\user\documents\visual studio 2013\projects\entropy\entropy\player.cpp(36): warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
-     1>c:\users\user\documents\visual studio 2013\projects\entropy\entropy\player.cpp(288): warning C4018: '>=' : signed/unsigned mismatch
-     1>c:\users\user\documents\visual studio 2013\projects\entropy\entropy\player.cpp(297): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\user\documents\visual studio 2013\projects\entropy\entropy\player.cpp(298): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\user\documents\visual studio 2013\projects\entropy\entropy\player.cpp(305): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\player.cpp(36): warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\player.cpp(288): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\user\documents\github\entropy\entropy\player.cpp(297): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\player.cpp(298): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\player.cpp(305): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         PauseState.cpp
+     1>c:\users\user\documents\github\entropy\entropy\pausestate.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\github\entropy\entropy\pausestate.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+         ObjectLayer.cpp
+         MenuButton.cpp
+         MainMenuState.cpp
+     1>c:\users\user\documents\github\entropy\entropy\playstate.h(13): warning C4150: deletion of pointer to incomplete type 'Level'; no destructor called
+                 c:\users\user\documents\github\entropy\entropy\game.h(8) : see declaration of 'Level'
+         main.cpp
+     1>c:\users\user\documents\github\entropy\entropy\main.cpp(16): warning C4244: 'initializing' : conversion from 'float' to 'const int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\main.cpp(29): warning C4101: 'frameStart' : unreferenced local variable
+     1>c:\users\user\documents\github\entropy\entropy\main.cpp(29): warning C4101: 'frameTime' : unreferenced local variable
+         LoaderParams.cpp
+         LevelParser.cpp
+         Level.cpp
+         Generating Code...
+     1>c:\users\user\documents\github\entropy\entropy\tilelayer.cpp(99): warning C4715: 'TileLayer::getTilesetByID' : not all control paths return a value
+         Compiling...
+         InputHandler.cpp
+     1>c:\users\user\documents\github\entropy\entropy\inputhandler.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\github\entropy\entropy\inputhandler.cpp(149): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\inputhandler.cpp(153): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\inputhandler.cpp(166): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\inputhandler.cpp(170): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+         GameStateMachine.cpp
+         GameOverState.cpp
+     1>c:\users\user\documents\github\entropy\entropy\playstate.h(13): warning C4150: deletion of pointer to incomplete type 'Level'; no destructor called
+                 c:\users\user\documents\github\entropy\entropy\game.h(8) : see declaration of 'Level'
+     1>c:\users\user\documents\github\entropy\entropy\gameoverstate.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\github\entropy\entropy\gameoverstate.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\github\entropy\entropy\gameoverstate.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+         GameObjectFactory.cpp
+         Game.cpp
+     1>c:\users\user\documents\github\entropy\entropy\playstate.h(13): warning C4150: deletion of pointer to incomplete type 'Level'; no destructor called
+                 c:\users\user\documents\github\entropy\entropy\game.h(8) : see declaration of 'Level'
+     1>c:\users\user\documents\github\entropy\entropy\game.cpp(27): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         CollisionManager.cpp
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(11): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(12): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(24): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(25): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(58): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(59): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(63): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(64): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(69): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\collisionmanager.cpp(70): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Camera.cpp
+         Projectile.cpp
+     1>c:\users\user\documents\github\entropy\entropy\projectile.cpp(23): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\projectile.cpp(37): warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+         base64.cpp
+         AnimatedGraphic.cpp
+         Actor.cpp
+     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(77): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(78): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(90): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\github\entropy\entropy\actor.cpp(92): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+     1>c:\users\user\documents\github\entropy\entropy\gamestatemachine.cpp(56): warning C4715: 'GameStateMachine::getCurrentState' : not all control paths return a value
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\documents\visual studio 2013\Projects\Entropy\Debug\Entropy.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_mixer.lib SDL2_image.lib zdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\documents\visual studio 2013\Projects\Entropy\Debug\Entropy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\documents\visual studio 2013\Projects\Entropy\Debug\Entropy.lib" /MACHINE:X86 Debug\Actor.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\GitHub\Entropy\Debug\Entropy.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_mixer.lib SDL2_image.lib zdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Documents\GitHub\Entropy\Debug\Entropy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\GitHub\Entropy\Debug\Entropy.lib" /MACHINE:X86 Debug\Actor.obj
          Debug\AnimatedGraphic.obj
          Debug\base64.obj
          Debug\Projectile.obj
@@ -40,9 +129,10 @@
          Debug\tinyxmlerror.obj
          Debug\tinyxmlparser.obj
          Debug\Vector2D.obj
-         Entropy.vcxproj -> C:\Users\user\documents\visual studio 2013\Projects\Entropy\Debug\Entropy.exe
-     1>Done Building Project "C:\Users\user\documents\visual studio 2013\Projects\Entropy\Entropy\Entropy.vcxproj" (Build target(s)).
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Entropy.vcxproj -> C:\Users\user\Documents\GitHub\Entropy\Debug\Entropy.exe
+     1>Done Building Project "C:\Users\user\Documents\GitHub\Entropy\Entropy\Entropy.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.92
+Time Elapsed 00:00:11.93
